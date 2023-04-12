@@ -35,7 +35,6 @@
             this.btnDismissEmployee = new System.Windows.Forms.Button();
             this.comBoxStatus = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDiary)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,23 +116,12 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Filtruj wg zatrudnienia:";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(429, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "label2";
-           
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(808, 496);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comBoxStatus);
             this.Controls.Add(this.btnDismissEmployee);
@@ -143,7 +131,6 @@
             this.Controls.Add(this.dgvDiary);
             this.Name = "Main";
             this.Text = "Form1";
-            
             ((System.ComponentModel.ISupportInitialize)(this.dgvDiary)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -159,7 +146,6 @@
         private System.Windows.Forms.Button btnDismissEmployee;
         private System.Windows.Forms.ComboBox comBoxStatus;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }
 
